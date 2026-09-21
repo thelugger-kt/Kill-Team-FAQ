@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kill Team FAQ</title>
+<meta name="description" content="A browsable, searchable list of Kill Team rulings, questions, and answers.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="brand" href="index.html">Kill Team <span class="brand-accent">FAQ</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="siteNav">
+      <a href="index.html" class="active">Browse</a>
+      <a href="about.html">About &amp; Contact</a>
+      <a href="credits.html">Credits</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="intro">
+    <h1>Kill Team Rulings &amp; FAQ</h1>
+    <p>Community rulings for questions not explicitly covered by the official rules. Use the search
+      box or browse by category below. Tap a question to reveal the answer.</p>
+  </section>
+
+  <div class="search-bar">
+    <input type="search" id="searchInput" placeholder="Search questions, answers, or factions&hellip;" aria-label="Search rulings">
+    <button id="clearSearch" class="clear-btn" type="button" hidden>Clear</button>
+  </div>
+
+  <p id="resultCount" class="result-count" aria-live="polite"></p>
+
+  <div id="sheets" class="sheets">
+    <p class="loading">Loading rulings&hellip;</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <p>Unofficial fan-made resource for Kill Team. Not affiliated with or endorsed by Games Workshop.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,414 @@
+{
+  "sheets": [
+    {
+      "name": "Core Rulings",
+      "entries": [
+        {
+          "Question": "On Turning Point 2,3, and 4 do you still receive an additional Command Point if you do not have Initiative?",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "Can you re-roll a dice you’ve already retained, or re-roll Initiative twice?",
+          "Answer": "No."
+        },
+        {
+          "Question": "When deploying operatives at the start of the game, how exactly do you set up and deploy the three groups? (i.e. Does setting up one third of the Kill Team rounded up mean your first group is always your largest and you recalculate every group before deploying, or do you set up all three groups as evenly as possible rounded up and then place the three groups in any order?)",
+          "Answer": "Do not recalculate groups after placement, pre-grouping operatives in advance is not necessary. (e.g 10 operatives will be 4/3/3) Also in the event of two large groups and one small group (e.g 11 operatives being 4/4/3) all larger groups must be deployed first."
+        },
+        {
+          "Question": "Where can markers be legally placed? (e.g. On any terrain, only on terrain with Vantage keyword)",
+          "Answer": "Only fully on the Killzone Floor or terrain with the Vantage trait."
+        },
+        {
+          "Question": "Can operatives stand on Markers if they are not Vantage?",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "Can Markers be placed so that part of the marker is underneath terrain?",
+          "Answer": "No, Objective Markers are placed before terrain in the game sequence, so there are no exceptions."
+        },
+        {
+          "Question": "When drawing visiblity from an operative, are you limited to choosing from a spot clearly identifiable as part of their ‘head’, or are you allowed to choose from things attached to the head? (e.g. Horns)",
+          "Answer": "No, you must use the models ‘skull’. No horns, no addons."
+        },
+        {
+          "Question": "If a model is removed from the Killzone, do any of their abilities continue to affect the Killzone? (e.g. Neutron Fallout)",
+          "Answer": "Yes, unless the ability states otherwise."
+        },
+        {
+          "Question": "If an operative receives a -1 APL during their current activation, does that affect the amount of APL they have for that activation as well as last until the end of their following activation?",
+          "Answer": "The APL is modified until the end of their next activation, if they are expended or the active operative when that apl is modified then it carries over to the next activation."
+        },
+        {
+          "Question": "If an operative receives two instances of -1 APL, and one +1 APL; and they have a base APL of 2, how many APL would they have during their activation?",
+          "Answer": "They will be at 1 APL, all positive and negative APL modifiers are added together then the result cannot exceed -1/+1, so one of the -1 APL instances would be cancelled out by the +1 leaving them at -1 APL."
+        },
+        {
+          "Question": "Do weapons not on an Operative’s data card suffer from injury and/or other modifiers? (e.g. grenades and assets)",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "If I can perform two actions on a counteract, will this get around the restrictions of different actions that cannot be performed in the same activation? (e.g Pick Up Marker and Drop Marker)",
+          "Answer": "Yes, a counteract is not an activation."
+        },
+        {
+          "Question": "If an operative can treat a 2AP action as 1AP through any of their relevant rules, can I perform that action on a counteract?",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "Can a model’s base be placed underneath terrain that has the Blocking rule? If so, how are targeting lines determined if the model ends their movement underneath terrain that provides cover? (e.g. Gallowdark Hatch)",
+          "Answer": "Yes, targeting lines depend on if the maximum width of the base is not intervening with the terrain. (e.g. If the back of their base from the attackers PoV is under the blocking terrain, they are not in cover)"
+        },
+        {
+          "Question": "When performing a Jump from a terrain feature, can you ignore any terrain or models underneath you?",
+          "Answer": "Yes, as long as you don't intersect with them."
+        },
+        {
+          "Question": "Can an operative Climb down terrain, or is Climb only for ascending? (i.e. If a model is going in a downward direction, is that required to be a Drop or Jump?)",
+          "Answer": "Climb is ascending only."
+        },
+        {
+          "Question": "If a piece of terrain is 3” above the Killzone floor, and within 1” horizontally of an operative’s base, but there is no terrain within 1” horizontally of the operative’s base at ground level, can the operative start a Climb to immediately ascend onto the terrain above them? (e.g. Vantage floors)",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "The Accessible keyword states that ‘Operatives can move through Accessible terrain as long as the center of their base moves through the Accessible terrain.’ What does this mean in regards to trying to block an enemy operative’s movement through a door with your base? (e.g. If an enemy operative is in a Hatchway, but I can fit half of my operative’s base between their base and the ITD wall while moving through the Accessible Hatchway, can I charge around them?)",
+          "Answer": "As long as the gap between the blocking operative's base and the terrain is greater than half of the moving operative’s base width, you may move through."
+        },
+        {
+          "Question": "If a rule deals additional damage (e.g. Devastating X), then my opponent uses a rule to ignore damage inflicted from an attack dice (e.g. Just a Scratch Tactical Ploy, Kommandos), is the additional damage ignored?",
+          "Answer": "No, damage that does not change the Damage Stat of a dice cannot be avoided, unless explicitly specified."
+        },
+        {
+          "Question": "If a rule adds additional damage to the Damage Stat of an dice (e.g. Blood for the Blood God), then my opponent uses a rule to ignore damage inflicted from an attack dice, (e.g. Just a Scratch Tactical Ploy) would the additional damage also be ignored.",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "Per the Distances rules, if an operative is carrying a marker, that marker is the same distance as that operative. For mines that trigger when an operative is within its control range (e.g. Phobos Haywire Mine, Kasrkin Melta Mine), can the mine be set off while the marker is being carried?",
+          "Answer": "No, the Marker must be legally placed and visible to an enemy operative to be in Control Range."
+        },
+        {
+          "Question": "Does “Worsen the Piercing weapons rule by 1 (if any)” rule still reduce the Piercing on models that ignore any changes to their stats? (e.g. The Emperor’s Will Inquisitorial Agent ploy.)",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "If a rule requires 2 APL to perform the Shoot action, would it also require 2 APL to perform the Guard action? (i.e. Rubric gunner’s second shot with a Soulreaper Cannon)",
+          "Answer": "Yes."
+        },
+        {
+          "Question": "If I have two weapon profiles and only one of them requires 2 APL perform the Shoot, can I go on Guard for 1 APL and use the 2 APL weapon to resolve the action?",
+          "Answer": "No, if you go on Guard for 1 APL you would be restricted from using the weapon that has the additional cost."
+        },
+        {
+          "Question": "For rules that happen ‘during an activation’, do they happen when an operative resolves Guard? (e.g. Phobos Deadly Shots, Hunter Clade Targeting Protocols)",
+          "Answer": "Yes unless it says ‘during THIS operative’s activation’ or ‘during a FRIENDLY operative’s activation’."
+        },
+        {
+          "Question": "If an operative with a Mine dies while holding their Mine, does it automatically drop if there is a legal position to place it? (e.g. Incursor Minelayer and Kasrkin Demo-Trooper)",
+          "Answer": "Yes, if an operative is carrying a Marker as defined then they must place it within their control range before being removed from the Killzone."
+        }
+      ]
+    },
+    {
+      "name": "Universal Equipment",
+      "entries": [
+        {
+          "Question": "For Operatives that can ignore any/all climbing distances, do they also ignore the additional cost of a Razor Wire? (e.g. Engage Jet Pack)",
+          "Answer": "Only if they completely ignore the cost of the Climb, if they Climb for a minimum of 2’’, they will have to spend an additional 1’’."
+        },
+        {
+          "Question": "If a smoke marker is underneath terrain (e.g. Vantage), since it has infinite height, will it provide benefits to models on the Vantage above it?",
+          "Answer": "Yes, Smoke specifically calls out that Smoke goes infinitely upwards but not down."
+        },
+        {
+          "Question": "When do models suffer the additional distance penalty for Razor Wire? (e.g. If a model moves within 1” of any part of the terrain feature, or only specifically when it crosses across the terrain and 1” to either end of it?)",
+          "Answer": "Only when climbing over any part of the physical equipment piece, moving around or jumping over the razor wire where the operative would be higher than 1’’ of the top does not impact movement."
+        },
+        {
+          "Question": "When climbing Ladder equipment, if the building the equipment is attached to is marginally taller than the Ladder, how do you treat the additional distance?",
+          "Answer": "As long as you remain within 1’’ and visible to any part of the Ladder the climb is reduced, if you leave control range of the Ladder at any time during the climb, the climb is not reduced at all, but you do not climb the Ladder itself, so you may go 1'' above the ladder before moving horizontally to gain the benefit."
+        },
+        {
+          "Question": "With a single Reposition action, can an operative Climb up a Ladder on one side of a terrain piece and then Climb down the same Ladder on the other side of the wall, as long as you stay within 1 inch and always maintain visibility to the Ladder? Allowing an operative to perform a single 1\" Climb over a terrain piece.",
+          "Answer": "You cannot Climb down. If the Drop distance is 2” or less it is still ignored so it is possible to spend 1” to Climb terrain that is 2” or less using the Ladder and drop without penalty as long as the Ladder is legally placed against terrain higher than 2’’ and you stay within control range for the entire vertical portion of the movement."
+        },
+        {
+          "Question": "Can a Ladder be placed against terrain that is touching the center line but otherwise wholly within your opponent’s territory?",
+          "Answer": "Yes, if the terrain piece is touching the center line and the base of the ladder is on your side of the Killzone."
+        },
+        {
+          "Question": "Ladders specify that they must be set up “upright against terrain.” What exactly are the requirements for this?)",
+          "Answer": "They need to be as close to 90 degrees as possible."
+        },
+        {
+          "Question": "Can an operative that can only perform a limited set of actions (e.g. Pathfinder Drones) move with the Portable Barricade equipment?",
+          "Answer": "Yes, any action treated as another action that an operative can perform is allowed."
+        }
+      ]
+    },
+    {
+      "name": "Killzone - Tomb World",
+      "entries": [
+        {
+          "Question": "When an Access Point is open, which sections of the Wall are considered for Cover and/or Obscuring? (i.e. Do the square pillars on either side of the Access Point provide cover? If so, is it only for cover lines that pass through the open Access Point?",
+          "Answer": "From the edges of the open Access Point until the square pillars on either side of the Access Point, the pillars themselves do not provide cover."
+        },
+        {
+          "Question": "Can an operative Operate Hatch from a position where they cannot legally be placed? (e.g. Since operatives can now move through friendly models, if the Hatch is being blocked by friendly models’ bases, can they still Operate Hatch during your Reposition action?)",
+          "Answer": "Yes, if Guard interrupts that action, place yourself in the closest possible position to the access point outside of control range of enemy operatives."
+        },
+        {
+          "Question": "Can you use the Teleport Pad on a counteract?",
+          "Answer": "No."
+        },
+        {
+          "Question": "Can I perform the Breach action and then Guard?",
+          "Answer": "You cannot go on Guard, Shoot or Charge during an activation in which you reduced the cost of Breach."
+        },
+        {
+          "Question": "When using the Teleport Pad can I Reposition onto the pad and teleport in a single action, or start on the pad and continue with the rest of my models movement with that same action?",
+          "Answer": "No, the teleport counts as the Reposition, Fall Back, or Charge action, even if no movement was used."
+        },
+        {
+          "Question": "Do pillars on Tomb World provide cover or do they function the same as Gallowdark?",
+          "Answer": "They function the same as Gallowdark, but note that the bottoms of the columns are what you use to determine intervening, rather than the larger middle sections."
+        },
+        {
+          "Question": "What happens when a Marker says “The first time your Marker is within another operative’s control range” and is on the other side of a closed access point and the access point is opened where multiple operatives are now within the Marker’s control range for the first time simultaneously?",
+          "Answer": "If the Marker specifies the first time an operative is within the control range, and doesn’t say \"moved within\", then opening an Access Point would apply the conditions required. If there are multiple operatives select the operative who opened Access Point, if that is not an option the active player decides the target."
+        },
+        {
+          "Question": "If an operative has an ability to Reposition, Charge or Fall Back themselves or another friendly operative with the restriction that they cannot move more than x'' can that operative use the Teleport Pad?",
+          "Answer": "Yes."
+        }
+      ]
+    },
+    {
+      "name": "Killzone - Volkus",
+      "entries": [
+        {
+          "Question": "When selecting a legal target for a Door Fight action on Killzone Volkus, can the defending operative within 2 inches of any part of the terrain feature marked as Accessible be selected as a target for the Fight action? (e.g. An enemy operative on Vantage, but within 2 inches of the top of the Accessible terrain)",
+          "Answer": "No, they must be within 2’’ of the bottom of the door and on the other side of the terrain features ‘wall’ in some way."
+        },
+        {
+          "Question": "Per the Garrisoned Stronghold rule, when performing the Door Fight action, does the defender fight first if they are inside the stronghold?",
+          "Answer": "The defender resolves first, but is not fighting, they are still retaliating."
+        },
+        {
+          "Question": "The rules for Volkus doors specify that you ignore doors for the purposes of control range when determining visibility. If an enemy is within 1 inch of the door and not visible, will you need to charge them as normal?",
+          "Answer": "Yes you will need to Charge."
+        },
+        {
+          "Question": "If an operative on a Volkus Stronghold Vantage is targeting an operative on another Stronghold Vantage, if there is intervening heavy terrain between them that is connected to either Vantage, is the target obscured?",
+          "Answer": "No, only intervening Heavy terrain not attached to both vantages would be obscuring."
+        },
+        {
+          "Question": "Are the Fire Steps connected to the rest of the Volkus Stronghold terrain feature for the purposes of determining obscuring?",
+          "Answer": "They are not connected."
+        }
+      ]
+    },
+    {
+      "name": "Season - Tomb World",
+      "entries": [
+        {
+          "Faction": "Canoptek Circle",
+          "Question": "Can the Macrocyte Accelerator use Overcharge on the Geomancer?",
+          "Answer": "No."
+        },
+        {
+          "Faction": "Canoptek Circle",
+          "Question": "Can I use A Ceaseless Scuttling if there are no Macrocyte Warriors in the Kill Zone?",
+          "Answer": "Yes."
+        },
+        {
+          "Faction": "Canoptek Circle",
+          "Question": "Can Obelisk Node Control be used to contest a Marker for the purposes of victory conditions that require control or contesting objectives (i.e. Stake Claim)",
+          "Answer": "No, Nodes can only control Markers, they never contest them."
+        },
+        {
+          "Faction": "Canoptek Circle",
+          "Question": "When using the Matrix Manipulator, does the outer edge of the Geomancer’s 50mm base count as part of the Matrix or is the line still 20mm wide? (e.g. is it a 20mm line throughout, or does it taper?)",
+          "Answer": "The Matrix from the Marker to the Geomancer would widen to the width of the Geomancer’s base."
+        },
+        {
+          "Faction": "Canoptek Circle",
+          "Question": "When three Obelisk Nodes are all within 6” of two Nodes forming a triangle, is the area in the center part of the Node Matrix?",
+          "Answer": "No"
+        },
+        {
+          "Faction": "Exodite Dragon Masters",
+          "Question": "During a Sprint action, at what point do you remove equipment terrain when a Mounted operative “moves through”?",
+          "Answer": "As soon as the Mounted operative starts to move over the terrain feature and reduces available movement by 1’’ for Accessible terrain the terrain is removed. They do not need to finish the action before this happens."
+        },
+        {
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Are Mounted operatives in Cover as long as one portion of the Heavy terrain is 2’’ or taller and wholly intervening?",
+          "Answer": "No, Mounted operatives can only be in cover from Heavy terrain that is wholly intervening and all parts that are intervening are 2’’ or taller."
+        },
+        {
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Sprint/Turn through Ceiling terrain?",
+          "Answer": "Yes, as long as they start and end that action in a place they can legally be placed."
+        },
+        {
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Sprint/Turn through Closed Quarter Walls?",
+          "Answer": "No."
+        },
+        {
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Leap through Closed Quarter Access Points?",
+          "Answer": "No."
+        }
+      ]
+    },
+    {
+      "name": "Season - Volkus",
+      "entries": [
+        {
+          "Season": "Volkus",
+          "Faction": "Tempestus Aquilons",
+          "Question": "When using Drop Insertion, can the Aquilon Precursor with a Conceal order drop within control range of an enemy operative?",
+          "Answer": "Yes."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Vespid Stingwings",
+          "Question": "Does the Strain Leader's Communion Helm allow it to target itself to perform a free 1 AP Mission Action?",
+          "Answer": "No, the rule states that another friendly operative can perform the free 1AP mission action."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Sanctifiers",
+          "Question": "When using Lead the Procession, can the Cherub FLY further than 3’’.",
+          "Answer": "No."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Battleclade",
+          "Question": "Can the Breacher Servitor or a Combat Servitor with a meltagun use the Breach action for 1APL and still be eligible to use Concealed Apparatus during the next Strategic Gambit phase?",
+          "Answer": "Yes, the action is not on its data card."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Battleclade",
+          "Question": "When I use Transfer Power to give another operative a Network Counteract, must I perform an action during the activation I used Transfer Power?",
+          "Answer": "Yes."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Battleclade",
+          "Question": "Can I use Remote Access on an objective if friendly operatives do not have control of that objective?",
+          "Answer": "Yes."
+        },
+        {
+          "Season": "Volkus",
+          "Faction": "Wrecka Krew",
+          "Question": "Can a Bomb Squig deploy with a Conceal order?",
+          "Answer": "Yes, it must deploy with a Conceal order, then when it activates it must move to Engage and stay on Engage."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Canoptek Circle",
+          "Question": "Can the Macrocyte Accelerator use Overcharge on the Geomancer?",
+          "Answer": "No."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Canoptek Circle",
+          "Question": "Can I use A Ceaseless Scuttling if there are no Macrocyte Warriors in the Kill Zone?",
+          "Answer": "Yes."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Canoptek Circle",
+          "Question": "Can Obelisk Node Control be used to contest a Marker for the purposes of victory conditions that require control or contesting objectives (i.e. Stake Claim)",
+          "Answer": "No, Nodes can only control Markers, they never contest them."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Canoptek Circle",
+          "Question": "When using the Matrix Manipulator, does the outer edge of the Geomancer’s 50mm base count as part of the Matrix or is the line still 20mm wide? (e.g. is it a 20mm line throughout, or does it taper?)",
+          "Answer": "The Matrix from the Marker to the Geomancer would widen to the width of the Geomancer’s base."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Canoptek Circle",
+          "Question": "When three Obelisk Nodes are all within 6” of two Nodes forming a triangle, is the area in the center part of the Node Matrix?",
+          "Answer": "No"
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Exodite Dragon Masters",
+          "Question": "During a Sprint action, at what point do you remove equipment terrain when a Mounted operative “moves through”?",
+          "Answer": "As soon as the Mounted operative starts to move over the terrain feature and reduces available movement by 1’’ for Accessible terrain the terrain is removed. They do not need to finish the action before this happens."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Are Mounted operatives in Cover as long as one portion of the Heavy terrain is 2’’ or taller and wholly intervening?",
+          "Answer": "No, Mounted operatives can only be in cover from Heavy terrain that is wholly intervening and all parts that are intervening are 2’’ or taller."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Sprint/Turn through Ceiling terrain?",
+          "Answer": "Yes, as long as they start and end that action in a place they can legally be placed."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Sprint/Turn through Closed Quarter Walls?",
+          "Answer": "No."
+        },
+        {
+          "Season": "Tomb World",
+          "Faction": "Exodite Dragon Masters",
+          "Question": "Can Mounted operatives Leap through Closed Quarter Access Points?",
+          "Answer": "No."
+        }
+      ]
+    },
+    {
+      "name": "Season - Bheta-Decima",
+      "entries": [
+        {
+          "Faction": "Inquisitorial Agents",
+          "Question": "If an enemy operative moves within 2\" of a friendly operative, can I use Relentless In Pursuit to charge the enemy?",
+          "Answer": "No. the enemy needs to start within 2''."
+        },
+        {
+          "Faction": "Inquisitorial Agents",
+          "Question": "If I use Absolute Authority to deny the opponent’s Strategic Ploy, who selects the next Strategic Ploy?",
+          "Answer": "The opponent."
+        },
+        {
+          "Faction": "Blades of Khaine",
+          "Question": "If I use a Teleport Pad with a Charge on Tomb World with a Howling Banshee and Fight, if I incapacitate the enemy operative can I then use the Aspect Technique The Woe to now perform a 9’’ charge as I have not used any of my movement?",
+          "Answer": "Yes, they can either Charge onto a Teleport Pad, Fight an enemy operative within control range that is not on the Teleport Pad, incapacitate them, use The Woe then Teleport to the other side into control range of an enemy operative, OR they can start on a Teleport Pad, Charge, Fight, incapacitate an enemy operative then use The Woe to perform a 9’’ Charge."
+        },
+        {
+          "Faction": "Nemesis Claw",
+          "Question": "If the Ventrilokar uses Discerning Mimicry on an enemy operative with FLY and forces it to perform a Dash action, can that operative be made to FLY instead of move?",
+          "Answer": "Yes."
+        }
+      ]
+    },
+    {
+      "name": "Season - Gallowdark",
+      "entries": [
+        {
+          "Faction": "Farstalker Kinband",
+          "Question": "When using Poach, can you circumvent the Crit Op and Tac Op conditions to perform mission actions on Turning Point 1?",
+          "Answer": "No."
+        },
+        {
+          "Faction": "Fellgor Ravagers",
+          "Question": "Does a weapon with the Devastating X and 0 Damage on Crits end a Frenzy ?",
+          "Answer": "No, you need to resolve damage from the dice."
+        }
+      ]
+    }
+  ]
+}
