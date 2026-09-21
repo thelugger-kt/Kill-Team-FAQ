@@ -289,7 +289,7 @@ a:hover, a:focus {
   background: none;
   border: none;
   color: var(--text);
-  padding: 0.85rem 1.1rem;
+  padding: 0.4rem 1.1rem 0.85rem;
   font-size: 1rem;
   text-align: left;
   cursor: pointer;
@@ -314,7 +314,7 @@ a:hover, a:focus {
   display: flex;
   flex-wrap: wrap;
   gap: 0.35rem;
-  margin: 0 1.1rem 0.5rem 2rem;
+  margin: 0.85rem 1.1rem 0 1.1rem;
 }
 
 .tag {

@@ -65,14 +65,6 @@
     var wrap = document.createElement("div");
     wrap.className = "entry";
 
-    var btn = document.createElement("button");
-    btn.type = "button";
-    btn.className = "entry-question";
-    btn.innerHTML = CHEVRON_SVG + '<span class="entry-question-text">' + highlight(entry.Question, query) + "</span>";
-    btn.addEventListener("click", function () {
-      wrap.classList.toggle("open");
-    });
-
     var tagsHtml = buildTags(entry);
     var tagsEl = null;
     if (tagsHtml) {
@@ -81,14 +73,22 @@
       tagsEl = tagsEl.firstChild;
     }
 
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "entry-question";
+    btn.innerHTML = CHEVRON_SVG + '<span class="entry-question-text">' + highlight(entry.Question, query) + "</span>";
+    btn.addEventListener("click", function () {
+      wrap.classList.toggle("open");
+    });
+
     var answer = document.createElement("div");
     answer.className = "entry-answer";
     answer.innerHTML = "<strong>Answer: </strong>" + highlight(entry.Answer || "", query);
 
-    wrap.appendChild(btn);
     if (tagsEl) {
       wrap.appendChild(tagsEl);
     }
+    wrap.appendChild(btn);
     wrap.appendChild(answer);
     return wrap;
   }
