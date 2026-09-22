@@ -109,8 +109,7 @@
     header.className = "sheet-header";
     header.innerHTML =
       CHEVRON_SVG +
-      "<span>" + escapeHtml(sheet.name) + "</span>" +
-      '<span class="count">' + matching.length + (matching.length === 1 ? " entry" : " entries") + "</span>";
+      "<span>" + escapeHtml(sheet.name) + "</span>";
     header.addEventListener("click", function () {
       wrap.classList.toggle("open");
     });

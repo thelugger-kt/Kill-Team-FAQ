@@ -230,7 +230,7 @@ a:hover, a:focus {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 0.75rem;
   background: none;
   border: none;
@@ -244,14 +244,6 @@ a:hover, a:focus {
 
 .sheet-header:hover {
   background: var(--bg-elevated-2);
-}
-
-.sheet-header .count {
-  color: var(--text-muted);
-  font-weight: 400;
-  font-size: 0.85rem;
-  margin-left: auto;
-  margin-right: 0.75rem;
 }
 
 .sheet-header .chevron {
