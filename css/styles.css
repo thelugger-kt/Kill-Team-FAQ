@@ -161,6 +161,26 @@ a:hover, a:focus {
   font-style: italic;
 }
 
+.credits-list {
+  list-style: none;
+  margin: 0 0 1rem;
+  padding: 0;
+}
+
+.credits-list li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.credits-list li:last-child {
+  border-bottom: none;
+}
+
+.credits-name {
+  font-weight: 700;
+  color: var(--text);
+}
+
 .contact-box {
   display: flex;
   flex-direction: column;
