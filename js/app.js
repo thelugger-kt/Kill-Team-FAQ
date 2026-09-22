@@ -154,8 +154,7 @@
       resultCount.textContent =
         totalMatches + (totalMatches === 1 ? " result" : " results") + ' for "' + query.trim() + '"';
     } else {
-      var total = allSheets.reduce(function (sum, s) { return sum + s.entries.length; }, 0);
-      resultCount.textContent = total + " total rulings across " + allSheets.length + " categories";
+      resultCount.textContent = "";
     }
 
     clearBtn.hidden = !normalized;
