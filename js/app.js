@@ -58,6 +58,7 @@
     btn.innerHTML = CHEVRON_SVG + '<span class="entry-question-text">' + highlight(entry.Question, query) + "</span>";
     btn.addEventListener("click", function () {
       wrap.classList.toggle("open");
+      updateToggleSheetsButton();
     });
 
     var answer = document.createElement("div");
@@ -72,16 +73,14 @@
   function updateToggleSheetsButton() {
     var sheets = Array.prototype.slice.call(sheetsContainer.querySelectorAll(".sheet"));
     var entries = Array.prototype.slice.call(sheetsContainer.querySelectorAll(".entry"));
-    var allOpen = sheets.length > 0 && entries.length > 0 &&
-      sheets.every(function (sheet) {
-        return sheet.classList.contains("open");
-      }) &&
-      entries.every(function (entry) {
-        return entry.classList.contains("open");
-      });
+    var anyOpen = sheets.some(function (sheet) {
+      return sheet.classList.contains("open");
+    }) || entries.some(function (entry) {
+      return entry.classList.contains("open");
+    });
     var hasSections = sheets.length > 0;
     toggleSheetsBtn.disabled = !hasSections;
-    toggleSheetsBtn.textContent = allOpen ? "Collapse All" : "Expand All";
+    toggleSheetsBtn.textContent = anyOpen ? "Collapse All" : "Expand All";
   }
 
   function setAllOpen(open) {
@@ -114,6 +113,7 @@
       "<span>" + escapeHtml(sheet.name) + "</span>";
     header.addEventListener("click", function () {
       wrap.classList.toggle("open");
+      updateToggleSheetsButton();
     });
 
     var body = document.createElement("div");
