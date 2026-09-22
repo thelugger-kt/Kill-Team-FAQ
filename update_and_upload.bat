@@ -8,7 +8,8 @@ REM Rebuilds data\rulings.json from Rulings\Kill Team FAQ.xlsx
 REM and pushes the updated site to GitHub.
 REM
 REM Run this after you have edited the spreadsheet with new or
-REM changed rulings.
+REM changed rulings. Use one worksheet per Kill Team; the build
+REM keeps shared sections first and alphabetizes team sheets.
 REM ============================================================
 
 cd /d "%~dp0"

@@ -4,6 +4,7 @@
   var sheetsContainer = document.getElementById("sheets");
   var searchInput = document.getElementById("searchInput");
   var clearBtn = document.getElementById("clearSearch");
+  var toggleSheetsBtn = document.getElementById("toggleSheets");
   var resultCount = document.getElementById("resultCount");
 
   if (!sheetsContainer) {
@@ -47,31 +48,9 @@
     return haystack.indexOf(query) !== -1;
   }
 
-  function buildTags(entry) {
-    var tags = [];
-    if (entry.Season) tags.push(entry.Season);
-    if (entry.Faction) tags.push(entry.Faction);
-    if (!tags.length) {
-      return "";
-    }
-    return (
-      '<div class="entry-tags">' +
-      tags.map(function (t) { return '<span class="tag">' + escapeHtml(t) + "</span>"; }).join("") +
-      "</div>"
-    );
-  }
-
   function buildEntryEl(entry, query) {
     var wrap = document.createElement("div");
     wrap.className = "entry";
-
-    var tagsHtml = buildTags(entry);
-    var tagsEl = null;
-    if (tagsHtml) {
-      tagsEl = document.createElement("div");
-      tagsEl.innerHTML = tagsHtml;
-      tagsEl = tagsEl.firstChild;
-    }
 
     var btn = document.createElement("button");
     btn.type = "button";
@@ -85,12 +64,35 @@
     answer.className = "entry-answer";
     answer.innerHTML = "<strong>Answer: </strong>" + highlight(entry.Answer || "", query);
 
-    if (tagsEl) {
-      wrap.appendChild(tagsEl);
-    }
     wrap.appendChild(btn);
     wrap.appendChild(answer);
     return wrap;
+  }
+
+  function updateToggleSheetsButton() {
+    var sheets = Array.prototype.slice.call(sheetsContainer.querySelectorAll(".sheet"));
+    var entries = Array.prototype.slice.call(sheetsContainer.querySelectorAll(".entry"));
+    var allOpen = sheets.length > 0 && entries.length > 0 &&
+      sheets.every(function (sheet) {
+        return sheet.classList.contains("open");
+      }) &&
+      entries.every(function (entry) {
+        return entry.classList.contains("open");
+      });
+    var hasSections = sheets.length > 0;
+    toggleSheetsBtn.disabled = !hasSections;
+    toggleSheetsBtn.textContent = allOpen ? "Collapse all" : "Expand all";
+  }
+
+  function setAllOpen(open) {
+    var sheets = sheetsContainer.querySelectorAll(".sheet");
+    var entries = sheetsContainer.querySelectorAll(".entry");
+    Array.prototype.forEach.call(sheets, function (sheet) {
+      sheet.classList.toggle("open", open);
+    });
+    Array.prototype.forEach.call(entries, function (entry) {
+      entry.classList.toggle("open", open);
+    });
   }
 
   function buildSheetEl(sheet, query, forceOpen) {
@@ -149,6 +151,7 @@
       none.textContent = "No rulings match your search.";
       sheetsContainer.appendChild(none);
     }
+    updateToggleSheetsButton();
 
     if (normalized) {
       resultCount.textContent =
@@ -173,6 +176,12 @@
     searchInput.value = "";
     render("");
     searchInput.focus();
+  });
+
+  toggleSheetsBtn.addEventListener("click", function () {
+    var shouldOpen = toggleSheetsBtn.textContent === "Expand all";
+    setAllOpen(shouldOpen);
+    updateToggleSheetsButton();
   });
 
   fetch("data/rulings.json")

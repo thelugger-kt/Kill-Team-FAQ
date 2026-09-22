@@ -18,11 +18,14 @@ js/app.js                    Search/accordion behavior + shared mobile nav toggl
 
 ## Updating the rulings
 
-1. Edit `Rulings/Kill Team FAQ.xlsx` (add rows to existing sheets, or add a new sheet).
+1. Edit `Rulings/Kill Team FAQ.xlsx` (add rows to existing sheets, or add a new
+   sheet). Use one worksheet per Kill Team, named exactly after the team. The
+   site keeps `Core Rulings`, `Universal Equipment`, and the two `Killzone - ...`
+   sheets first, then displays all other worksheets alphabetically by name.
    - Each sheet's first row must be a header row using column names `Question`, `Answer`, and
      optionally `Faction` and/or `Season`.
-   - If you add a brand-new sheet, also add its name to `SHEET_ORDER` in
-     `scripts/build_data.py` so it appears in the right place instead of at the end.
+   - New Kill Team sheets are picked up and alphabetized automatically; no
+     Python ordering list update is required.
 2. Regenerate the data file:
 
    ```

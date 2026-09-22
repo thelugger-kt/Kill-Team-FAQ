@@ -19,18 +19,13 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE_XLSX = ROOT / "Rulings" / "Kill Team FAQ.xlsx"
 OUTPUT_JSON = ROOT / "data" / "rulings.json"
 
-# Fixed display order for known sheets. Sheets not listed here are appended
-# after these, in the order they appear in the workbook, so nothing is
-# silently dropped if a new sheet is added before this list is updated.
-SHEET_ORDER = [
+# Keep the shared sections first. Individual Kill Team sheets follow in
+# alphabetical order, so adding a team does not require changing this list.
+FIXED_SHEET_ORDER = [
     "Core Rulings",
     "Universal Equipment",
     "Killzone - Tomb World",
     "Killzone - Volkus",
-    "Kill Teams - Tomb World",
-    "Kill Teams - Volkus",
-    "Kill Teams - Bheta-Decima",
-    "Kill Teams - Gallowdark",
 ]
 
 
@@ -66,8 +61,11 @@ def read_sheet(ws):
 
 
 def ordered_sheet_names(all_names):
-    ordered = [name for name in SHEET_ORDER if name in all_names]
-    remaining = [name for name in all_names if name not in SHEET_ORDER]
+    ordered = [name for name in FIXED_SHEET_ORDER if name in all_names]
+    remaining = sorted(
+        (name for name in all_names if name not in FIXED_SHEET_ORDER),
+        key=str.casefold,
+    )
     return ordered + remaining
 
 
@@ -84,7 +82,7 @@ def main():
         entries = read_sheet(ws)
         sheets.append({"name": name, "entries": entries})
 
-    missing = [name for name in SHEET_ORDER if name not in all_names]
+    missing = [name for name in FIXED_SHEET_ORDER if name not in all_names]
     if missing:
         print(f"Warning: expected sheet(s) not found in workbook: {missing}")
 
