@@ -81,7 +81,7 @@
       });
     var hasSections = sheets.length > 0;
     toggleSheetsBtn.disabled = !hasSections;
-    toggleSheetsBtn.textContent = allOpen ? "Collapse all" : "Expand all";
+    toggleSheetsBtn.textContent = allOpen ? "Collapse All" : "Expand All";
   }
 
   function setAllOpen(open) {
@@ -179,7 +179,7 @@
   });
 
   toggleSheetsBtn.addEventListener("click", function () {
-    var shouldOpen = toggleSheetsBtn.textContent === "Expand all";
+    var shouldOpen = toggleSheetsBtn.textContent === "Expand All";
     setAllOpen(shouldOpen);
     updateToggleSheetsButton();
   });
