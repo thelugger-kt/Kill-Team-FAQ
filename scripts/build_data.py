@@ -27,10 +27,10 @@ SHEET_ORDER = [
     "Universal Equipment",
     "Killzone - Tomb World",
     "Killzone - Volkus",
-    "Season - Tomb World",
-    "Season - Volkus",
-    "Season - Bheta-Decima",
-    "Season - Gallowdark",
+    "Kill Teams - Tomb World",
+    "Kill Teams - Volkus",
+    "Kill Teams - Bheta-Decima",
+    "Kill Teams - Gallowdark",
 ]
 
 
