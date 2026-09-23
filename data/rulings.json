@@ -73,7 +73,11 @@
         },
         {
           "Question": "If an operative with a Mine dies while holding their Mine, does it automatically drop if there is a legal position to place it? (e.g. Incursor Minelayer and Kasrkin Demo-Trooper)",
-          "Answer": "Yes, if an operative is carrying a Marker as defined then they must place it within their control range before being removed from the Killzone. Some Markers have a carveout saying if they cannot legally place it outside of control range of enemy operatives, it is instead removed from the killzone."
+          "Answer": "Yes."
+        },
+        {
+          "Question": "If I have a rule that happens 'after an action' but is itself not an action, and my opponent is On Guard, which resolves first.",
+          "Answer": "They both actually occur at the same time, so the player with initiative decides."
         }
       ]
     },
@@ -90,11 +94,11 @@
         },
         {
           "Question": "When do models suffer the additional distance penalty for Razor Wire? (e.g. If a model moves within 1” of any part of the terrain feature, or only specifically when it crosses across the terrain and 1” to either end of it?)",
-          "Answer": "Only when climbing over any part of the physical equipment piece, moving around or jumping over the razor wire where the operative would be higher than 1’’ of the top does not impact movement."
+          "Answer": "Only when climbing over any part of the physical equipment piece."
         },
         {
-          "Question": "When climbing Ladder equipment, if the building the equipment is attached to is marginally taller than the Ladder, how do you treat the additional distance?",
-          "Answer": "As long as you remain within 1’’ and visible to any part of the Ladder the Climb is reduced, after that you must start a new Climb with a minimum distance of 2'' and you may continue measuring any remaining vertical or horizontal movement in that Reposition action."
+          "Question": "When climbing Ladder equipment, if the building the equipment is attached to is taller than the Ladder, how do you treat the additional distance?",
+          "Answer": "As long as you remain within 1’’ and visible to any part of the Ladder the Climb is reduced, after that you may start a new Climb with a minimum distance of 2'' and you may continue measuring any remaining vertical or horizontal movement in that Reposition action."
         },
         {
           "Question": "With a single Reposition action, can an operative Climb up a Ladder on one side of a terrain piece and then Climb down the same Ladder on the other side of the wall, as long as you stay within 1 inch and always maintain visibility to the Ladder? Allowing an operative to perform a single 1\" Climb over a terrain piece.",
@@ -168,16 +172,16 @@
       "name": "Battleclade",
       "entries": [
         {
-          "Question": "Can the Breacher Servitor or a Combat Servitor with a meltagun use the Breach action for 1APL and still be eligible to use Concealed Apparatus during the next Strategic Gambit phase?",
-          "Answer": "Yes, the action is not on its data card."
-        },
-        {
           "Question": "When I use Transfer Power to give another operative a Network Counteract, must I perform an action during the activation I used Transfer Power?",
           "Answer": "Yes."
         },
         {
           "Question": "Can I use Remote Access on an objective if friendly operatives do not have control of that objective?",
           "Answer": "Yes."
+        },
+        {
+          "Question": "When using Remote Access, which parts of an action's conditions do I take precedence over?",
+          "Answer": "Only the conditions related to distance and control of the Marker. Note: that you cannot control the Marker if there are enemy operatives in range of the Marker and not in control range of friendly operatives."
         }
       ]
     },
@@ -198,16 +202,8 @@
           "Answer": "No."
         },
         {
-          "Question": "Can I use A Ceaseless Scuttling if there are no Macrocyte Warriors in the Kill Zone?",
-          "Answer": "Yes."
-        },
-        {
           "Question": "Can Obelisk Node Control be used to contest a Marker for the purposes of victory conditions that require control or contesting objectives (i.e. Stake Claim)",
           "Answer": "No, Nodes can only control Markers, they never contest them."
-        },
-        {
-          "Question": "When using the Matrix Manipulator, does the outer edge of the Geomancer’s 50mm base count as part of the Matrix or is the line still 20mm wide? (e.g. is it a 20mm line throughout, or does it taper?)",
-          "Answer": "The Matrix from the Marker to the Geomancer would widen to the width of the Geomancer’s base."
         },
         {
           "Question": "When three Obelisk Nodes are all within 6” of two Nodes forming a triangle, is the area in the center part of the Node Matrix?",
@@ -246,25 +242,25 @@
         {
           "Question": "When using Poach, can you circumvent the Crit Op and Tac Op conditions to perform mission actions on Turning Point 1?",
           "Answer": "No."
+        },
+        {
+          "Question": "When using Poach, which parts of an action's conditions do I take precedence over?",
+          "Answer": "Only the conditions related to control of the Marker."
         }
       ]
     },
     {
-      "name": "Fellgor Ravagers",
+      "name": "Hearthkyn Salvagers",
       "entries": [
         {
-          "Question": "Does a weapon with the Devastating X and 0 Damage on Crits end a Frenzy ?",
-          "Answer": "No, you need to resolve damage from the dice."
+          "Question": "When using Excavation Tools, which parts of the Pick Up Marker conditions do I take precedence over?",
+          "Answer": "Only the conditions related to the cost of the action, control of the Marker and Control Range of enemy operatives."
         }
       ]
     },
     {
       "name": "Inquisitorial Agents",
       "entries": [
-        {
-          "Question": "If an enemy operative moves within 2\" of a friendly operative, can I use Relentless In Pursuit to charge the enemy?",
-          "Answer": "No. the enemy needs to start within 2''."
-        },
         {
           "Question": "If I use Absolute Authority to deny the opponent’s Strategic Ploy, who selects the next Strategic Ploy?",
           "Answer": "The opponent."
@@ -277,6 +273,15 @@
         {
           "Question": "If the Ventrilokar uses Discerning Mimicry on an enemy operative with FLY and forces it to perform a Dash action, can that operative be made to FLY instead of move?",
           "Answer": "Yes."
+        }
+      ]
+    },
+    {
+      "name": "Ratlings",
+      "entries": [
+        {
+          "Question": "When using Larcenous, which parts of an action's conditions do I take precedence over?",
+          "Answer": "Only the conditions related to control of the Marker and Control Range of enemy operatives."
         }
       ]
     },
