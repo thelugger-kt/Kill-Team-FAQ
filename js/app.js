@@ -48,6 +48,19 @@
     return haystack.indexOf(query) !== -1;
   }
 
+  function sheetMatches(sheet, query) {
+    return !!query && String(sheet.name || "").toLowerCase().indexOf(query) !== -1;
+  }
+
+  function matchingEntries(sheet, query) {
+    if (sheetMatches(sheet, query)) {
+      return sheet.entries;
+    }
+    return sheet.entries.filter(function (e) {
+      return entryMatches(e, query);
+    });
+  }
+
   function buildEntryEl(entry, query) {
     var wrap = document.createElement("div");
     wrap.className = "entry";
@@ -95,9 +108,7 @@
   }
 
   function buildSheetEl(sheet, query, forceOpen) {
-    var matching = sheet.entries.filter(function (e) {
-      return entryMatches(e, query);
-    });
+    var matching = matchingEntries(sheet, query);
     if (!matching.length) {
       return null;
     }
@@ -110,7 +121,7 @@
     header.className = "sheet-header";
     header.innerHTML =
       CHEVRON_SVG +
-      "<span>" + escapeHtml(sheet.name) + "</span>";
+      "<span>" + highlight(sheet.name, query) + "</span>";
     header.addEventListener("click", function () {
       wrap.classList.toggle("open");
       updateToggleSheetsButton();
@@ -134,9 +145,7 @@
     var anySheet = false;
 
     allSheets.forEach(function (sheet) {
-      var matching = sheet.entries.filter(function (e) {
-        return entryMatches(e, normalized);
-      });
+      var matching = matchingEntries(sheet, normalized);
       totalMatches += matching.length;
       var el = buildSheetEl(sheet, normalized, !!normalized);
       if (el) {
