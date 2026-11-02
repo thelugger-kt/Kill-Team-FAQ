@@ -86,7 +86,7 @@
       "entries": [
         {
           "Question": "For Operatives that can ignore any/all climbing distances, do they also ignore the additional cost of a Razor Wire? (e.g. Engage Jet Pack)",
-          "Answer": "Only if you \"ignore the vertical distance\" while climbing the Razor Wire.  Rules which otherwise reduce the climbing cost still trigger Obstructing while climbing over Razor Wire."
+          "Answer": "Only if you are using Engage Jet Pack. Rules which otherwise reduce the climbing cost still trigger Obstructing while climbing over Razor Wire."
         },
         {
           "Question": "If a smoke marker is underneath terrain (e.g. Vantage), since it has infinite height, will it provide benefits to models on the Vantage above it?",
@@ -106,7 +106,7 @@
         },
         {
           "Question": "Can a Ladder be placed against terrain that is touching the center line but otherwise wholly within your opponent’s territory?",
-          "Answer": "Yes, if the terrain piece is touching the center line and the base of the ladder is on your side of the Killzone."
+          "Answer": "Yes, if the section of the terrain the ladder is touching is also on the center line and the base of the ladder is on your side of the Killzone."
         },
         {
           "Question": "Ladders specify that they must be set up “upright against terrain.” What exactly are the requirements for this?)",
@@ -122,10 +122,6 @@
       "name": "Killzone - Tomb World",
       "entries": [
         {
-          "Question": "When an Access Point is open, which sections of the Wall are considered for Cover and/or Obscuring? (i.e. Do the square pillars on either side of the Access Point provide cover? If so, is it only for cover lines that pass through the open Access Point?",
-          "Answer": "From the edges of the open Access Point until the square pillars on either side of the Access Point, the pillars themselves do not provide cover."
-        },
-        {
           "Question": "Can an operative Operate Hatch from a position where they cannot legally be placed? (e.g. Since operatives can now move through friendly models, if the Hatch is being blocked by friendly models’ bases, can they still Operate Hatch during your Reposition action?)",
           "Answer": "Yes, if Guard interrupts that action, place yourself in the closest possible position to the access point outside of control range of enemy operatives."
         },
@@ -139,7 +135,7 @@
         },
         {
           "Question": "Do pillars on Tomb World provide cover or do they function the same as Gallowdark?",
-          "Answer": "They function the same as Gallowdark, but note that the bottoms of the columns are what you use to determine intervening, rather than the larger middle sections."
+          "Answer": "They provide cover."
         },
         {
           "Question": "What happens when a Marker says “The first time your Marker is within another operative’s control range” and is on the other side of a closed access point and the access point is opened where multiple operatives are now within the Marker’s control range for the first time simultaneously? (e.g. Proximity Mine)",
@@ -220,11 +216,7 @@
         },
         {
           "Question": "Are Mounted operatives in Cover as long as one portion of the Heavy terrain is 2’’ or taller and wholly intervening?",
-          "Answer": "No, Mounted operatives can only be in cover from Heavy terrain that is wholly intervening and all parts that are intervening are 2’’ or taller."
-        },
-        {
-          "Question": "Can Mounted operatives Sprint/Turn through Ceiling terrain?",
-          "Answer": "Yes, as long as they start and end that action in a place they can legally be placed."
+          "Answer": "Yes as long as the portion that is 2'' or taller is in their control range."
         },
         {
           "Question": "Can Mounted operatives Sprint/Turn through Closed Quarter Walls?",
@@ -272,7 +264,7 @@
       "entries": [
         {
           "Question": "If the Ventrilokar uses Discerning Mimicry on an enemy operative with FLY and forces it to perform a Dash action, can that operative be made to FLY instead of move?",
-          "Answer": "Yes."
+          "Answer": "No."
         }
       ]
     },
@@ -300,15 +292,6 @@
         {
           "Question": "When using Drop Insertion, can the Aquilon Precursor with a Conceal order drop within control range of an enemy operative?",
           "Answer": "Yes."
-        }
-      ]
-    },
-    {
-      "name": "Vespid Stingwings",
-      "entries": [
-        {
-          "Question": "Does the Strain Leader's Communion Helm allow it to target itself to perform a free 1 AP Mission Action?",
-          "Answer": "No, the rule states that another friendly operative can perform the free 1AP mission action."
         }
       ]
     },
